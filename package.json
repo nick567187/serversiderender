@@ -1,0 +1,32 @@
+{
+  "name": "ssr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nick567187/serversiderender.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nick567187/serversiderender/issues"
+  },
+  "homepage": "https://github.com/nick567187/serversiderender#readme",
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "next": "^7.0.2",
+    "next-redux-wrapper": "^1.3.5",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-redux": "^5.1.1",
+    "redux": "^4.0.1",
+    "redux-devtools-extension": "^2.13.5",
+    "redux-thunk": "^2.3.0"
+  }
+}
